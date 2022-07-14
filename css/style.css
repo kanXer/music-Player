@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Rubik:ital,wght@1,700&display=swap');
+
+/* font-family: 'Edu TAS Beginner', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+body{
+    background-image: linear-gradient(red, yellow);
+    /* overflow-y: hidden; */
+
+}
+.navbar{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 57px;
+    background: rgb(0, 0, 0);
+    color: rgb(37, 255, 8);
+    
+}
+.navLink{
+    cursor: pointer;
+    padding: 0px 16px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.brand img{
+    height: 42px;
+    padding: 0px 2px;
+}
+.container{
+    min-height: 72vh;
+    font-family: 'Edu TAS Beginner', cursive;
+    background-image: url(../img/demo.jpg);
+    color: aliceblue;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 8px;
+    padding: 24px;
+}
+.songitemContainer{
+    margin-top: 74px;
+}
+.songitem{
+    width:329px;
+    height: 50px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songitem img{
+    width: 32px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    padding: 0 23px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    position: sticky;
+    height: 157px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    margin-top: 25px;
+    width: 80vw;
+    cursor: pointer;
+
+}
+.icons{
+    display: flex;
+    margin-top: 16px;
+  
+    
+}
+/* .icons i{
+    height:44px ;
+} */
+.icons i{
+    padding: 0 6px;
+    height: 44px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.songinfo{
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    
+    position: absolute;
+    left: 10vw;
+    flex-direction: row;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    width: 182px;
+}
